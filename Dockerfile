@@ -23,6 +23,8 @@ RUN echo 'http://alpine.gliderlabs.com/alpine/edge/main' > /etc/apk/repositories
         php7-zlib \
         php7-curl \
         php7-pdo \
+        php7-pdo_mysql \
+        php7-mysqli \
         && \
 
     # Create symlinks for backward compatibility
